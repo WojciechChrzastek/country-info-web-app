@@ -8,7 +8,7 @@ public interface CountryInfoDao {
 
   public List<String> showGeneratedIpNumbers();
 
-  public String addIpNumber(CountryInfo countryInfo);
+  public int addIpNumber(CountryInfo countryInfo);
 
   public List<CountryInfo> showReport();
 }
