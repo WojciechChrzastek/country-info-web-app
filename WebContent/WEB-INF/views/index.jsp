@@ -7,6 +7,7 @@
 <body>
   <div align="center">
     <h1>Country Info Application</h1>
+    <h3><a href="new">Add IP</a></h3>
     <table border="1" cellpadding="5">
       <tr>
         <th>id</th>
