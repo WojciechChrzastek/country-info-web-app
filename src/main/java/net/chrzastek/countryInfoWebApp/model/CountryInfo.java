@@ -28,6 +28,10 @@ public class CountryInfo {
     this.countryName = countryName;
   }
 
+  public CountryInfo(String ip) {
+    this.ip = ip;
+  }
+
   public Integer getId() {
     return id;
   }
@@ -66,5 +70,16 @@ public class CountryInfo {
 
   public void setCountryName(String countryName) {
     this.countryName = countryName;
+  }
+
+  @Override
+  public String toString() {
+    return "CountryInfo{" +
+            "id=" + id +
+            ", isProcessed=" + isProcessed +
+            ", processedTimestamp='" + processedTimestamp + '\'' +
+            ", ip='" + ip + '\'' +
+            ", countryName='" + countryName + '\'' +
+            '}';
   }
 }
