@@ -1,12 +1,9 @@
 package main.java.net.chrzastek.countryInfoWebApp.model;
 
-import main.java.net.chrzastek.countryInfoWebApp.database.DbHandler;
-
-import java.sql.Connection;
-
 public class CountryInfo {
-  private static final String DB_NAME = "country-info.db";
-  private static final String TABLE_NAME = "ipNumbers";
+//  private static final String DB_NAME = "country-info.db";
+//  private static final DbHandler dbHandler = new DbHandler();
+//  private static final String TABLE_NAME = "ipNumbers";
 
   private Integer id;
   private Boolean isProcessed;
@@ -14,11 +11,10 @@ public class CountryInfo {
   private String ip;
   private String countryName;
 
-  public static void main(String[] args) {
-    DbHandler dbHandler = new DbHandler();
-    Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
-    dbHandler.createNewTable(TABLE_NAME, conn);
-  }
+//  public static void main(String[] args) {
+//    Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
+//    dbHandler.createNewTable(TABLE_NAME, conn);
+//  }
 
   public CountryInfo(Integer id, Boolean isProcessed, String processedTimestamp, String ip, String countryName) {
     this.id = id;
@@ -26,6 +22,9 @@ public class CountryInfo {
     this.processedTimestamp = processedTimestamp;
     this.ip = ip;
     this.countryName = countryName;
+  }
+
+  public CountryInfo() {
   }
 
   public CountryInfo(String ip) {
@@ -44,8 +43,8 @@ public class CountryInfo {
     return isProcessed;
   }
 
-  public void setProcessed(Boolean processed) {
-    isProcessed = processed;
+  public void setProcessed(Boolean isProcessed) {
+    this.isProcessed = isProcessed;
   }
 
   public String getProcessedTimestamp() {
