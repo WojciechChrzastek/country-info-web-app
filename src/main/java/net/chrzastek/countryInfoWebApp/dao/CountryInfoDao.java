@@ -6,9 +6,10 @@ import java.util.List;
 
 public interface CountryInfoDao {
 
-  public List<String> showGeneratedIpNumbers();
+  List<String> showGeneratedIpNumbers();
 
-  public int addIpNumber(CountryInfo countryInfo);
+  int addIpNumber(CountryInfo countryInfo);
 
-  public List<CountryInfo> showReport();
+  List<CountryInfo> showReport();
+
 }
