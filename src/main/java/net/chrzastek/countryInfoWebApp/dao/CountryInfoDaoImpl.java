@@ -18,21 +18,6 @@ public class CountryInfoDaoImpl implements CountryInfoDao {
   }
 
   @Override
-  public List<String> showGeneratedIpNumbers() {
-    String sql = "SELECT ip FROM ipNumbers";
-
-    RowMapper<String> rowMapper = new RowMapper<String>() {
-
-      @Override
-      public String mapRow(ResultSet resultSet, int i) throws SQLException {
-        return resultSet.getString("ip");
-      }
-    };
-    return jdbcTemplate.query(sql, rowMapper);
-
-  }
-
-  @Override
   public int addIpNumber(CountryInfo countryInfo) {
     String sql = "INSERT INTO ipNumbers (ip) VALUES (?)";
     return jdbcTemplate.update(sql, countryInfo.getIp());
