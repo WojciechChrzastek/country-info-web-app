@@ -6,8 +6,6 @@ import java.util.List;
 
 public interface CountryInfoDao {
 
-  List<String> showGeneratedIpNumbers();
-
   int addIpNumber(CountryInfo countryInfo);
 
   List<CountryInfo> showReport();
