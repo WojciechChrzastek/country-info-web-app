@@ -14,18 +14,21 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
+import java.util.List;
 
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "main.java.net.chrzastek.countryInfoWebApp")
 public class SpringMvcConfig implements WebMvcConfigurer {
 
-  private void createAndConnectToDbWithTable() {
+  public void createAndConnectToDbWithTable() {
     final String DB_NAME = "country-info.db";
     final DbHandler dbHandler = new DbHandler();
     final String TABLE_NAME = "ipNumbers";
     Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
     dbHandler.createNewTable(TABLE_NAME, conn);
+    final List<String> IP_NUMBERS_LIST = dbHandler.generateRandomIpNumbersList();
+    dbHandler.insertIpNumbers(conn, TABLE_NAME, IP_NUMBERS_LIST);
   }
 
   @Bean
