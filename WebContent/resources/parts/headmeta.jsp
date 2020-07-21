@@ -13,4 +13,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
+<script src="https://kit.fontawesome.com/1cc53aee27.js" crossorigin="anonymous"></script>
+
 <style><%@include file="../css/styles.css"%></style>
