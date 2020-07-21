@@ -5,8 +5,8 @@
     <%@ include file="../../resources/parts/headmeta.jsp" %>
 </head>
 <body>
-<section>
-    <div class="container">
+<section class="vh-100">
+    <div class="container my-auto">
         <div class="row justify-content-center">
             <h1>Country Info App - Home</h1>
         </div>
