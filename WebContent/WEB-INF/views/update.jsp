@@ -14,6 +14,6 @@
         <h4><a href="./">Go back to homepage</a></h4>
     </div>
 </section>
-
+<%@ include file="../../resources/parts/footer.jsp" %>
 </body>
 </html>
