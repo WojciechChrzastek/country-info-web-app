@@ -22,7 +22,7 @@
 <section>
 
     <div class="container">
-        <table class="table table-bordered table-hover">
+        <table class="table bg-light table-bordered table-hover table-responsive-md">
             <thead>
             <th>id</th>
             <th>isProcessed</th>
