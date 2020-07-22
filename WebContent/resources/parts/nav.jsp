@@ -23,3 +23,7 @@
         </div>
     </div>
 </nav>
+
+<button onclick="topFunction()" id="scrollButton" title="Scroll up">
+    <i class="fas fa-angle-up"></i>
+</button>
