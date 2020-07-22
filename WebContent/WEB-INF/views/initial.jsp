@@ -6,6 +6,9 @@
     <%@ include file="../../resources/parts/headmeta.jsp" %>
 </head>
 <body>
+
+<%@ include file="../../resources/parts/navbar.jsp" %>
+
 <section>
     <div class="container">
         <div class="row justify-content-center">

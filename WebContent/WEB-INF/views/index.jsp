@@ -5,6 +5,9 @@
     <%@ include file="../../resources/parts/headmeta.jsp" %>
 </head>
 <body>
+
+<%@ include file="../../resources/parts/navbar.jsp" %>
+
 <section class="vh-100">
     <div class="container my-auto">
         <div class="row justify-content-center">

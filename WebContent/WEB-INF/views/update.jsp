@@ -6,6 +6,8 @@
 </head>
 <body>
 
+<%@ include file="../../resources/parts/navbar.jsp" %>
+
 <section>
     <div class="row justify-content-center align-items-center">
         Table rows have been updated.
@@ -14,6 +16,7 @@
         <h4><a href="./">Go back to homepage</a></h4>
     </div>
 </section>
+
 <%@ include file="../../resources/parts/footer.jsp" %>
 </body>
 </html>
