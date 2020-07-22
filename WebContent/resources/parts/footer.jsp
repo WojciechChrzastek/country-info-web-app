@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
+<script><%@include file="../js/main.js"%></script>
+
 <footer>
     <ul class="list-group list-group-horizontal">
         <li>
