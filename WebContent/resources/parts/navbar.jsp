@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<nav id="navbar" class="navbar navbar-dark bg-light fixed-top navbar-expand-sm py-3" data-toggle="affix">
+<nav id="navbar" class="navbar navbar-dark bg-dark fixed-top navbar-expand-sm py-3" data-toggle="affix">
     <div class="container">
         <a class="navbar-brand" href="./">
             <div>Country Info WebApp<small class="font-weight-light"><br />Map an IP to a country</small>
