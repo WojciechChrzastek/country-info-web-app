@@ -7,7 +7,7 @@ html {
 }
 
 section {
-  background-color: red!important;
+  background-color: lightsteelblue!important;
   padding-top: 90px;
   display: flex;
   flex-direction: column;
@@ -48,52 +48,6 @@ ul {
   height: auto;
   max-width: 170px;
   padding-bottom: 10px;
-}
-
-/*-----TOP-----*/
-#top {
-  background-color: transparent;
-  position: relative;
-  justify-content: center;
-  min-height: 100vh;
-  color: #fff;
-  text-align: center;
-  height: 100%;
-}
-
-#welcome {
-  position: relative;
-  bottom: 10%;
-}
-
-#welcome > p {
-  text-align: center;
-}
-
-#top .background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-size: cover;
-  background-position: top center;
-  background-color: #1a77c1;
-}
-
-#top .background-image:after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-size: cover;
-  background-position: top center;
-  background-color: #414a4f;
-  opacity: 0.55;
 }
 
 /*-----SCROLL-ICON-----*/
@@ -140,70 +94,6 @@ ul {
   border: 0.2em solid #fff;
   border-radius: 2em;
   opacity: 0.5;
-}
-
-/*-----TECHNOLOGIES-& TOOLS----*/
-#technologies li,
-#tools li {
-  padding: 30px 20px;
-  position: relative;
-}
-
-#technologies .img-fluid,
-#tools .img-fluid {
-  height: auto;
-  max-width: 120px;
-  padding-bottom: 10px;
-}
-
-/*-----PROJECTS-----*/
-.projects {
-  max-width: 850px;
-}
-
-#projects li {
-  min-width: 250px;
-}
-
-/*-----ABOUT-ME-----*/
-.about-me {
-  max-width: 850px;
-}
-
-#about-me .img-fluid {
-  height: auto;
-  max-width: 100%;
-  padding-bottom: 0;
-}
-
-/*-----CONTACT-----*/
-#contact > p {
-  align-self: auto;
-}
-
-#contact {
-  align-items: center;
-  padding-bottom: 70px;
-}
-
-form {
-  max-width: 850px !important;
-  padding: 0 !important;
-}
-
-input:focus:valid,
-textarea:focus:valid {
-  box-shadow: 0 0 5px 1px #28a745;
-}
-
-input:focus:invalid,
-textarea:focus:invalid {
-  box-shadow: 0 0 5px 1px #dc3545;
-}
-
-label.error {
-  font-size: smaller;
-  color: #dc3545;
 }
 
 /*-----FOOTER-----*/
@@ -380,8 +270,8 @@ footer a:hover {
 /*-----NAVBAR-SHNINK-ON-SCROLL-----*/
 html,
 body {
-  height: 100%;
-  padding-top: 50px;
+  /*height: 100%;*/
+  padding-top: 1px;
 }
 
 .navbar {
@@ -401,6 +291,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
 }
 
-/* section {
-  min-height: calc(100% - 70px);
-} */
+/*section {*/
+/*  min-height: calc(100% - 70px);*/
+/*}*/
