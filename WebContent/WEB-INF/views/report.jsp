@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<%@ include file="../../resources/parts/navbar.jsp" %>
+<%@ include file="../../resources/parts/nav.jsp" %>
 
 <section>
     <div class="container">

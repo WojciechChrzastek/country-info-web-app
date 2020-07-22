@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<%@ include file="../../resources/parts/navbar.jsp" %>
+<%@ include file="../../resources/parts/nav.jsp" %>
 
 <section class="vh-100">
     <div class="container my-auto">
