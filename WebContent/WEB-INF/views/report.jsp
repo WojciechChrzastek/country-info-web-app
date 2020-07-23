@@ -12,7 +12,7 @@
 <section>
     <div class="container">
         <div class="row justify-content-center pt-5 pb-3">
-            <h1>Country Info Application - Report</h1>
+            <h2>Report - current database content</h2>
         </div>
     </div>
 </section>
