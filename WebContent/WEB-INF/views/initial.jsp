@@ -12,10 +12,7 @@
 <section>
     <div class="container">
         <div class="row justify-content-center">
-            <h1>Country Info Application - Initial data</h1>
-        </div>
-        <div class="row justify-content-center">
-            <h4><a href="./">Go back to homepage</a></h4>
+            <h2>IP addresses generated on application startup and added to the database</h2>
         </div>
     </div>
 </section>
