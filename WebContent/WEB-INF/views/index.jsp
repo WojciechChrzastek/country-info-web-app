@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Country Info App - Home</title>
+    <title>Country Info WebApp - Home</title>
     <%@ include file="../../resources/parts/headmeta.jsp" %>
 </head>
 <body>

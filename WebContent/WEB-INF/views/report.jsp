@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>Country Info App - Report</title>
+    <title>Country Info WebApp - Report</title>
     <%@ include file="../../resources/parts/headmeta.jsp" %>
 </head>
 <body>

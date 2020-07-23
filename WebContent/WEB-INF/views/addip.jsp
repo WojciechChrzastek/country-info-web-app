@@ -2,7 +2,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
 <head>
-    <title>Country Info App - Add IP</title>
+    <title>Country Info WebApp - Add IP</title>
     <%@ include file="../../resources/parts/headmeta.jsp" %>
 </head>
 <body>
