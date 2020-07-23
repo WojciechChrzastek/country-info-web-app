@@ -10,21 +10,26 @@
 
 <section class="index">
     <div class="container my-auto">
-        <div class="row justify-content-center">
-            <h1>Country Info App - Home</h1>
-        </div>
-        <div class="row justify-content-center">
-            <h4><a href="initial">Show initial data</a></h4>
-        </div>
-        <div class="row justify-content-center">
-            <h4><a href="add">Add IP</a></h4>
-        </div>
-        <div class="row justify-content-center">
-            <h4><a href="update">Update rows from API response</a></h4>
-        </div>
-        <div class="row justify-content-center">
-            <h4><a href="report">Show report</a></h4>
-        </div>
+        <a href="http://internetcensus2012.github.io/InternetCensus2012/paper.html" target="_blank">
+            <img class="img-fluid"
+                 src="http://internetcensus2012.github.io/InternetCensus2012/images/geovideo.gif"
+                 style="max-width: 100%">
+        </a>
+        <%--        <div class="row justify-content-center">--%>
+        <%--            <h1>Country Info App - Home</h1>--%>
+        <%--        </div>--%>
+        <%--        <div class="row justify-content-center">--%>
+        <%--            <h4><a href="initial">Show initial data</a></h4>--%>
+        <%--        </div>--%>
+        <%--        <div class="row justify-content-center">--%>
+        <%--            <h4><a href="add">Add IP</a></h4>--%>
+        <%--        </div>--%>
+        <%--        <div class="row justify-content-center">--%>
+        <%--            <h4><a href="update">Update rows from API response</a></h4>--%>
+        <%--        </div>--%>
+        <%--        <div class="row justify-content-center">--%>
+        <%--            <h4><a href="report">Show report</a></h4>--%>
+        <%--        </div>--%>
     </div>
 </section>
 
