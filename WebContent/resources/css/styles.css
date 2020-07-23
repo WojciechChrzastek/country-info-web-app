@@ -7,7 +7,7 @@ html {
 }
 
 section {
-  background-color: lightsteelblue!important;
+  background-color: #f8f9fa!important;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -100,8 +100,8 @@ ul {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #f8f9fa !important;
-  color: rgba(0, 0, 0, 0.9);
+  /*background-color: #f8f9fa !important;*/
+  /*color: rgba(0, 0, 0, 0.9);*/
   padding: 30px 0;
   text-align: center;
   align-items: center;
@@ -145,7 +145,7 @@ footer p {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   cursor: pointer;
-  padding: 5px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   font-size: 24px;
 }
@@ -160,7 +160,8 @@ footer p {
 }
 
 footer {
-  background-color: #1f2a2d !important;
+  /*background-color: #1f2a2d !important;*/
+  /*background-color: #343a40 !important;*/
 }
 
 section {
@@ -180,11 +181,11 @@ section {
 }
 
 #scrollButton:hover {
-  background-color: rgba(0, 123, 186, 0.8) !important;
+  background-color: rgba(52, 58, 64, 0.8) !important;
 }
 
 #scrollButton {
-  background-color: rgba(0, 123, 186, 0.5) !important;
+  background-color: rgba(52, 58, 64, 0.5) !important;
 }
 
 footer {

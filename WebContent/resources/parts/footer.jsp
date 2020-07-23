@@ -2,7 +2,7 @@
 
 <script><%@include file="../js/main.js"%></script>
 
-<footer>
+<footer class="bg-dark">
     <ul class="list-group list-group-horizontal">
         <li>
             <a href="https://github.com/WojciechChrzastek" target="_blank" rel="noopener"><i
