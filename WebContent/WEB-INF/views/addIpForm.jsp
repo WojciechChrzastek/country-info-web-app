@@ -12,7 +12,7 @@
 <section class="vh-100">
     <div class="container my-auto">
         <div class="row justify-content-center">
-            <h1>Add ip</h1>
+            <h2>Add IP</h2>
         </div>
 
         <div class="form-section row justify-content-center">
