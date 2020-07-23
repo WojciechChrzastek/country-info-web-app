@@ -182,11 +182,11 @@ section {
 /*}*/
 
 #scrollButton:hover {
-  background-color: rgba(52, 58, 64, 0.8) !important;
+  background-color: rgba(0, 123, 255, 1);
 }
 
 #scrollButton {
-  background-color: rgba(52, 58, 64, 0.5) !important;
+  background-color: rgba(0, 123, 255, 0.8);
 }
 
 footer {
