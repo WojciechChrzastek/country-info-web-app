@@ -9,7 +9,7 @@
 
 <%@ include file="../../resources/parts/nav.jsp" %>
 
-<section class="vh-100">
+<section class="addip">
     <div class="container my-auto">
         <div class="row justify-content-center pb-3">
             <h2>Add IP</h2>

@@ -8,7 +8,7 @@
 
 <%@ include file="../../resources/parts/nav.jsp" %>
 
-<section class="vh-100">
+<section class="index">
     <div class="container my-auto">
         <div class="row justify-content-center">
             <h1>Country Info App - Home</h1>
@@ -27,6 +27,8 @@
         </div>
     </div>
 </section>
+
 <%@ include file="../../resources/parts/footer.jsp" %>
+
 </body>
 </html>

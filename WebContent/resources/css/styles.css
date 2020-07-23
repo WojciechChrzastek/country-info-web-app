@@ -8,7 +8,8 @@ html {
 
 section {
   background-color: #f8f9fa!important;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
+  /*margin-top: 150px!important;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,3 +297,11 @@ body {
 /*  min-height: calc(100% - 70px);*/
 /*}*/
 
+
+.index {
+  /*height: calc(100% - 40px) !important;*/
+}
+
+.index, .addip {
+  height: calc(100% - 163px) !important;
+}
