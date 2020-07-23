@@ -52,7 +52,7 @@ public class MainController {
   public ModelAndView add(ModelAndView model) {
     CountryInfo countryInfo = new CountryInfo();
     model.addObject("countryInfo", countryInfo);
-    model.setViewName("addIpForm");
+    model.setViewName("addip");
 
     return model;
   }
