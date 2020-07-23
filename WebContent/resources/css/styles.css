@@ -168,17 +168,17 @@ section {
   background-color: #e6f1f3;
 }
 
-.btn {
-  color: #fff !important;
-  background-color: #007bba !important;
-  border-color: #007bba !important;
-}
+/*.btn {*/
+/*  color: #fff !important;*/
+/*  background-color: #007bba !important;*/
+/*  border-color: #007bba !important;*/
+/*}*/
 
-.btn:hover {
-  color: #fff;
-  background-color: rgba(0, 123, 186, 0.8) !important;
-  border-color: rgba(0, 123, 186, 0.8) !important;
-}
+/*.btn:hover {*/
+/*  color: #fff;*/
+/*  background-color: rgba(0, 123, 186, 0.8) !important;*/
+/*  border-color: rgba(0, 123, 186, 0.8) !important;*/
+/*}*/
 
 #scrollButton:hover {
   background-color: rgba(52, 58, 64, 0.8) !important;
@@ -295,3 +295,4 @@ body {
 /*section {*/
 /*  min-height: calc(100% - 70px);*/
 /*}*/
+

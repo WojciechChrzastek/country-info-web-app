@@ -9,31 +9,33 @@
 
 <%@ include file="../../resources/parts/nav.jsp" %>
 
-<section>
-    <div class="container">
+<section class="vh-100">
+    <div class="container my-auto">
         <div class="row justify-content-center">
             <h1>Add ip</h1>
         </div>
-    </div>
-</section>
 
-<section>
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <table class="table table-borderless">
-                <form:form action="addIp" method="post" modelAttribute="countryInfo">
-                    <tr>
-                        <td align="center" style="width: 50%">IP:
-                            <form:input required="true" pattern="^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$" path="ip"/></td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <button class="btn btn-primary" type="submit">Add</button>
-                        </td>
-                    </tr>
-                </form:form>
-            </table>
+        <div class="form-section row justify-content-center">
+            <form:form action="addIp" method="post" modelAttribute="countryInfo">
+                <form>
+                    <div class="form-group row justify-content-center">
+                        <label for="inputIp" class="col-sm-2 col-form-label">IP:</label>
+                        <div class="col-sm-10">
+                            <form:input required="true"
+                                        pattern="^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
+                                        path="ip"
+                                        type="text"
+                                        class="form-control"
+                                        id="inputIp" placeholder="IP"/>
+                            <small id="inputIpHelp" class="form-text text-muted">Please provide valid IP
+                                address.</small>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-primary" type="submit">Add</button>
+                    </div>
+                </form>
+            </form:form>
         </div>
     </div>
 
