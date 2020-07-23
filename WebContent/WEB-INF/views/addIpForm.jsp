@@ -11,7 +11,7 @@
 
 <section class="vh-100">
     <div class="container my-auto">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pb-3">
             <h2>Add IP</h2>
         </div>
 

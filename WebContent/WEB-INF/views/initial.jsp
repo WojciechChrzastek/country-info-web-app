@@ -10,14 +10,11 @@
 <%@ include file="../../resources/parts/nav.jsp" %>
 
 <section>
-    <div class="container">
+    <div class="container pt-5 pb-3">
         <div class="row justify-content-center">
             <h2>IP addresses generated on application startup and added to the database</h2>
         </div>
     </div>
-</section>
-<section>
-
     <div class="container">
         <table class="table table-bordered table-hover">
             <thead>

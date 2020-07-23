@@ -11,11 +11,8 @@
 
 <section>
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pt-5 pb-3">
             <h1>Country Info Application - Report</h1>
-        </div>
-        <div class="row justify-content-center">
-            <h4><a href="./">Go back to homepage</a></h4>
         </div>
     </div>
 </section>
