@@ -32,7 +32,8 @@ There are following actions to choose from:
 ![Country-info WebApp initial IP](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/report.jpg)
 
 ### Main topics covered by this project
-- Spring basics
+- Spring MVC basics
+- CRUD
 - servlets
 - working with .jsp
 - SQL and JDBC
