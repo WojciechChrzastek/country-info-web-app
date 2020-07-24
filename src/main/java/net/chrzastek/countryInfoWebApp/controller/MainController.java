@@ -41,9 +41,11 @@ public class MainController {
   @RequestMapping(value = "/update")
   public ModelAndView update(ModelAndView model) {
 
-    DbHandler dbHandler = new DbHandler();
-    Connection conn = dbHandler.connectToNewDatabase("country-info.db");
-    DbHandler.updateAllRows(conn, dbHandler);
+//    DbHandler dbHandler = new DbHandler();
+    Connection conn = SpringMvcConfig.dbHandler.connectToNewDatabase(SpringMvcConfig.DB_NAME);
+//    DbHandler.updateAllRows(conn, dbHandler);
+
+    DbHandler.updateAllRows(conn, SpringMvcConfig.dbHandler);
 
     model.setViewName("update");
     return model;
