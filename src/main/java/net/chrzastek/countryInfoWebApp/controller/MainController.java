@@ -53,7 +53,7 @@ public class MainController {
   @RequestMapping(value = "/addIp", method = RequestMethod.POST)
   public ModelAndView addIp(@ModelAttribute CountryInfo countryInfo) {
     countryInfoDao.addIpNumber(countryInfo);
-    return new ModelAndView("index");
+    return new ModelAndView("addip-success");
   }
 
   @RequestMapping(value = "/initial")
