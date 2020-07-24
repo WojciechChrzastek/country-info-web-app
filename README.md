@@ -2,9 +2,9 @@
 
 ## About the project
 
-Simple web application that communicates with an external API to get the country name based on a given IP. The database used for the project runs on SQLite, so there is no need for any database configuration.
+Simple web application that communicates with a free, open source [API "ip2country"](https://ip2country.info/) to get the country name based on a given IP. The database used for the project runs on [SQLite](https://www.sqlite.org/index.html), so there is no need for any database configuration.
 
-You can easily run this app on a Tomcat server using the attached [.war file](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/target/country-info-web-app-1.0-SNAPSHOT.war?raw=true).
+You can easily run this app on an [Apache Tomcat](http://tomcat.apache.org/) server using the attached [.war file](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/target/country-info-web-app-1.0-SNAPSHOT.war?raw=true).
 
 After the startup, app will execute the following procedures:
 
@@ -30,3 +30,5 @@ There are following actions to choose from:
 - Maven
 
 After the app shutdown you should manually delete the database created by the app in your Tomcat server bin folder.
+
+The project is created in [Java 1.8.0_202](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html) and uses [SQLite 3.32.3](https://www.sqlite.org/releaselog/3_32_3.html). Tested to run under [Apache Tomcat 8.5.56](https://tomcat.apache.org/download-80.cgi).
