@@ -11,7 +11,9 @@
 <section class="update">
     <div class="container my-auto">
         <div class="row justify-content-center align-items-center">
-            <h2>Table rows have been updated.</h2>
+            <div class="alert alert-success" role="alert">
+                <h2>Table rows have been successfully updated.</h2>
+            </div>
         </div>
         <div class="row justify-content-center align-items-center">
             <h4><a href="./">Go back to homepage</a></h4>
