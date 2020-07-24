@@ -14,15 +14,22 @@ After the startup, the app will execute the following procedures:
 3. Creating an empty table in the database.
 4. Generating 100 random IP numbers and putting them in a created table.
 
-Then the application homepage will be displayed in your OS default web browser.
+Then the application homepage will be displayed in your OS default web browser:
 ![Country-info WebApp Homepage](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/index.gif)
 
 ### Using the application
 There are following actions to choose from:
 1. Show initial IP addresses generated on application startup.
+![Country-info WebApp initial IP](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/initial.jpg)
+
 2. Manually Add IP to the database by filling a simple form.
+![Country-info WebApp initial IP](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/addip.gif)
+
 3. Update all rows which have not yet a country name assigned to given ip number.
+![Country-info WebApp initial IP](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/update.jpg)
+
 4. Show report - current database content.
+![Country-info WebApp initial IP](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/report.jpg)
 
 ### Main topics covered by this project
 - Spring basics
