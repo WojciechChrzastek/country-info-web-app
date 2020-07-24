@@ -302,7 +302,7 @@ body {
   /*height: calc(100% - 40px) !important;*/
 }
 
-.index, .addip {
+.index, .addip, .update {
   height: calc(100% - 163px) !important;
 }
 
