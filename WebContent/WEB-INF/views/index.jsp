@@ -10,11 +10,13 @@
 
 <section class="index">
     <div class="container my-auto">
-        <a href="http://internetcensus2012.github.io/InternetCensus2012/paper.html" target="_blank">
-            <img class="img-fluid"
-                 src="http://internetcensus2012.github.io/InternetCensus2012/images/geovideo.gif"
-                 style="max-width: 100%">
-        </a>
+        <div class="img-div row justify-content-center">
+            <a href="http://internetcensus2012.github.io/InternetCensus2012/paper.html" target="_blank">
+                <img class="img-fluid index-img"
+                     src="http://internetcensus2012.github.io/InternetCensus2012/images/geovideo.gif"
+                >
+            </a>
+        </div>
         <%--        <div class="row justify-content-center">--%>
         <%--            <h1>Country Info App - Home</h1>--%>
         <%--        </div>--%>

@@ -45,11 +45,11 @@ ul {
   padding: 0;
 }
 
-.img-fluid {
-  height: auto;
-  max-width: 170px;
-  padding-bottom: 10px;
-}
+/*.img-fluid {*/
+/*  height: auto;*/
+/*  max-width: 170px;*/
+/*  padding-bottom: 10px;*/
+/*}*/
 
 /*-----SCROLL-ICON-----*/
 @keyframes scroll {
@@ -304,6 +304,17 @@ body {
 
 .index, .addip {
   height: calc(100% - 163px) !important;
+}
+
+.index-img, .img-div {
+  /*height: 200px !important;*/
+  /*object-fit: fill;*/
+  margin-top: 1px;
+  max-height: 508px;
+  /*display: flex !important;*/
+  /*align-items: center !important;*/
+  /*flex-wrap: wrap !important;*/
+  /*width: 100% !important;*/
 }
 
 /*.form-group {*/
