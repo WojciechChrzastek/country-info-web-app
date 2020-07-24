@@ -4,9 +4,10 @@
 
 Simple web application that communicates with a free, open source [API "ip2country"](https://ip2country.info/) to get the country name based on a given IP. The database used for the project runs on [SQLite](https://www.sqlite.org/index.html), so there is no need for any database configuration.
 
+### Running the application
 You can easily run this app on an [Apache Tomcat](http://tomcat.apache.org/) server using the attached [.war file](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/target/country-info-web-app-1.0-SNAPSHOT.war?raw=true).
 
-After the startup, app will execute the following procedures:
+After the startup, the app will execute the following procedures:
 
 1. Creating a database in the bin folder of your Tomcat server.
 2. Establishing the connection to the database.
