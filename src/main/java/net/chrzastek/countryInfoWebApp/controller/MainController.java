@@ -31,7 +31,6 @@ public class MainController {
     List<CountryInfo> countryInfoList = countryInfoDao.showReport();
     model.addObject("countryInfoList", countryInfoList);
     model.setViewName("report");
-
     return model;
   }
 
@@ -48,14 +47,13 @@ public class MainController {
     CountryInfo countryInfo = new CountryInfo();
     model.addObject("countryInfo", countryInfo);
     model.setViewName("addip");
-
     return model;
   }
 
   @RequestMapping(value = "/addIp", method = RequestMethod.POST)
   public ModelAndView addIp(@ModelAttribute CountryInfo countryInfo) {
     countryInfoDao.addIpNumber(countryInfo);
-    return new ModelAndView("redirect:/");
+    return new ModelAndView("index");
   }
 
   @RequestMapping(value = "/initial")
