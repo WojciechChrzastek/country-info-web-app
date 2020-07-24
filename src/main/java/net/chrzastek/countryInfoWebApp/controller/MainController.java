@@ -21,9 +21,8 @@ public class MainController {
   private CountryInfoDao countryInfoDao;
 
   @RequestMapping(value = "/")
-  public ModelAndView listCountry(ModelAndView model) {
+  public ModelAndView index(ModelAndView model) {
     model.setViewName("index");
-
     return model;
   }
 
