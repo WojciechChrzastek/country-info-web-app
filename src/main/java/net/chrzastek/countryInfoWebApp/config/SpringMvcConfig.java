@@ -24,15 +24,11 @@ public class SpringMvcConfig implements WebMvcConfigurer {
   public static final String DB_NAME = "country-info.db";
   public static final DbHandler dbHandler = new DbHandler();
   public static final List<String> IP_NUMBERS_LIST = dbHandler.generateRandomIpNumbersList();
-//  public static final Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
 
   public void createAndConnectToDbWithTable() {
-//    final String DB_NAME = "country-info.db";
-//    final DbHandler dbHandler = new DbHandler();
     final String TABLE_NAME = "ipNumbers";
     Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
     dbHandler.createNewTable(TABLE_NAME, conn);
-//    final List<String> IP_NUMBERS_LIST = dbHandler.generateRandomIpNumbersList();
     dbHandler.insertIpNumbers(conn, TABLE_NAME, IP_NUMBERS_LIST);
   }
 

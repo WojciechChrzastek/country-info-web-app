@@ -22,8 +22,6 @@ public class MainController {
 
   @RequestMapping(value = "/")
   public ModelAndView listCountry(ModelAndView model) {
-//    List<CountryInfo> countryInfoList = countryInfoDao.showReport();
-//    model.addObject("countryInfoList", countryInfoList);
     model.setViewName("index");
 
     return model;
@@ -40,13 +38,8 @@ public class MainController {
 
   @RequestMapping(value = "/update")
   public ModelAndView update(ModelAndView model) {
-
-//    DbHandler dbHandler = new DbHandler();
     Connection conn = SpringMvcConfig.dbHandler.connectToNewDatabase(SpringMvcConfig.DB_NAME);
-//    DbHandler.updateAllRows(conn, dbHandler);
-
     DbHandler.updateAllRows(conn, SpringMvcConfig.dbHandler);
-
     model.setViewName("update");
     return model;
   }
@@ -63,18 +56,11 @@ public class MainController {
   @RequestMapping(value = "/addIp", method = RequestMethod.POST)
   public ModelAndView addIp(@ModelAttribute CountryInfo countryInfo) {
     countryInfoDao.addIpNumber(countryInfo);
-
     return new ModelAndView("redirect:/");
   }
 
   @RequestMapping(value = "/initial")
   public ModelAndView initial(ModelAndView model) {
-
-//    DbHandler dbHandler = new DbHandler();
-//    Connection conn = dbHandler.connectToNewDatabase("country-info.db");
-//    List<String> initialIpList = DbHandler.selectInitialIp(conn);
-//    List<String> initialIpList = SpringMvcConfig.IP_NUMBERS_LIST;
-
     model.addObject("initialIpList", SpringMvcConfig.IP_NUMBERS_LIST);
     model.setViewName("initial");
     return model;
