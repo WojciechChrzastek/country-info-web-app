@@ -1,5 +1,6 @@
 package main.java.net.chrzastek.countryInfoWebApp.controller;
 
+import main.java.net.chrzastek.countryInfoWebApp.config.SpringMvcConfig;
 import main.java.net.chrzastek.countryInfoWebApp.dao.CountryInfoDao;
 import main.java.net.chrzastek.countryInfoWebApp.database.DbHandler;
 import main.java.net.chrzastek.countryInfoWebApp.model.CountryInfo;
@@ -21,8 +22,8 @@ public class MainController {
 
   @RequestMapping(value = "/")
   public ModelAndView listCountry(ModelAndView model) {
-    List<CountryInfo> countryInfoList = countryInfoDao.showReport();
-    model.addObject("countryInfoList", countryInfoList);
+//    List<CountryInfo> countryInfoList = countryInfoDao.showReport();
+//    model.addObject("countryInfoList", countryInfoList);
     model.setViewName("index");
 
     return model;
@@ -67,11 +68,12 @@ public class MainController {
   @RequestMapping(value = "/initial")
   public ModelAndView initial(ModelAndView model) {
 
-    DbHandler dbHandler = new DbHandler();
-    Connection conn = dbHandler.connectToNewDatabase("country-info.db");
-    List<String> initialIpList = DbHandler.selectInitialIp(conn);
+//    DbHandler dbHandler = new DbHandler();
+//    Connection conn = dbHandler.connectToNewDatabase("country-info.db");
+//    List<String> initialIpList = DbHandler.selectInitialIp(conn);
+//    List<String> initialIpList = SpringMvcConfig.IP_NUMBERS_LIST;
 
-    model.addObject("initialIpList", initialIpList);
+    model.addObject("initialIpList", SpringMvcConfig.IP_NUMBERS_LIST);
     model.setViewName("initial");
     return model;
   }

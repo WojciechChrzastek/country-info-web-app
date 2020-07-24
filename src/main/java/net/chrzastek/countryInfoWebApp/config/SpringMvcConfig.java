@@ -21,13 +21,18 @@ import java.util.List;
 @ComponentScan(basePackages = "main.java.net.chrzastek.countryInfoWebApp")
 public class SpringMvcConfig implements WebMvcConfigurer {
 
+  final static String DB_NAME = "country-info.db";
+  final static DbHandler dbHandler = new DbHandler();
+  public final static List<String> IP_NUMBERS_LIST = dbHandler.generateRandomIpNumbersList();
+  final static  Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
+
   public void createAndConnectToDbWithTable() {
     final String DB_NAME = "country-info.db";
     final DbHandler dbHandler = new DbHandler();
     final String TABLE_NAME = "ipNumbers";
     Connection conn = dbHandler.connectToNewDatabase(DB_NAME);
     dbHandler.createNewTable(TABLE_NAME, conn);
-    final List<String> IP_NUMBERS_LIST = dbHandler.generateRandomIpNumbersList();
+//    final List<String> IP_NUMBERS_LIST = dbHandler.generateRandomIpNumbersList();
     dbHandler.insertIpNumbers(conn, TABLE_NAME, IP_NUMBERS_LIST);
   }
 
