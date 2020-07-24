@@ -89,22 +89,6 @@ public class DbHandler {
     }
   }
 
-  public static List<String> selectInitialIp(Connection conn) {
-    String sql = "SELECT ip " + "FROM " + "ipNumbers" + " WHERE id <= 100 ;";
-    String ipNumber = "";
-    List<String> listInitialIp = new ArrayList<>();
-    try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-      ResultSet rs = pstmt.executeQuery();
-      while (rs.next()) {
-        ipNumber = rs.getString("ip");
-        listInitialIp.add(ipNumber);
-      }
-    } catch (SQLException e) {
-      System.out.println(e.getMessage());
-    }
-    return listInitialIp;
-  }
-
   public static List<String> selectNotProcessedIp(Connection conn) {
     String sql = "SELECT ip " + "FROM " + "ipNumbers" + " WHERE isProcessed = false;";
     String ipNumber = "";
