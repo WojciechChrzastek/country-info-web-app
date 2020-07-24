@@ -15,6 +15,7 @@ After the startup, the app will execute the following procedures:
 4. Generating 100 random IP numbers and putting them in a created table.
 
 Then the application homepage will be displayed in your OS default web browser.
+![Country-info WebApp Homepage](https://github.com/WojciechChrzastek/country-info-web-app/blob/master/readme-images/index.gif)
 
 ### Using the application
 There are following actions to choose from:
