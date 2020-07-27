@@ -5,8 +5,8 @@
 Simple web application that communicates with a free, open source [API "ip2country"](https://ip2country.info/) to get the country name based on a given IP. The database used for the project runs on [SQLite](https://www.sqlite.org/index.html), so there is no need for any database configuration.
 
 ### Live demo
-Running application is available on my Heroku account, under the address:
-https://net-chrzastek-country-info.herokuapp.com/
+Running application is available on my Heroku account, under the address:  
+https://net-chrzastek-country-info.herokuapp.com/  
 Feel free to test it out!
 
 ### Running the application locally
